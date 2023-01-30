@@ -1,0 +1,27 @@
+.fele-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(245, 245, 245); 
+    height: 60px;
+    padding: 0 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.nav-links {
+    display: flex;
+
+}
+
+.nav-links a {
+    padding: 0 20px;
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(12,138,121);
+}
+
+.navbar-item:hover a {
+    color: green;
+    font-weight: 700;
+    font-size: 18px;
+}
