@@ -4,13 +4,14 @@ import MemberInfo from '../../Defaults';
 
 const renderProfileCards = () => {
     return (
-        Object.entries(MemberInfo).map(([key, value]) => {
+        Object.entries(MemberInfo).map(([key, member]) => {
             return <ProfileCard 
-                profileImage= {value.image}
-                displayName= {key}
+                profileImage= {member.image}
+                displayName= {member.displayName}
                 key={"member-" + key}
-                id={"2092395"}
-                email={"petlar5488@uhcl.edu"}
+                email={member.email}
+                linkedIn={member.linkedIn}
+                imgClass={member.classname}
             />
         })
     ) 
