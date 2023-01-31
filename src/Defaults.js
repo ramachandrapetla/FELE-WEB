@@ -24,11 +24,11 @@ const MemberInfo = {
         email: "vuchurip343@uhcl.edu",
         displayName: "Preethi Vuchuri"
     },
-    "Sooraj Nair" : {
+    "Sooraj Sivadasan Nair" : {
         image: "https://media.licdn.com/dms/image/D5635AQFj3GDcGvruBg/profile-framedphoto-shrink_400_400/0/1666329910817?e=1675497600&v=beta&t=fZj4MO7-lsfK90EuF7KSZcK09hrTFFrlWKIkaXoYttQ",
         linkedIn: "",
         email: "",
-        displayName: "Sooraj Naik"
+        displayName: "Sooraj Sivadasan Nair"
     },
     "Thomas Pulickal Joseph" : {
         image: "https://media.licdn.com/dms/image/D5635AQFj3GDcGvruBg/profile-framedphoto-shrink_400_400/0/1666329910817?e=1675497600&v=beta&t=fZj4MO7-lsfK90EuF7KSZcK09hrTFFrlWKIkaXoYttQ",

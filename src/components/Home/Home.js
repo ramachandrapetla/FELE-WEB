@@ -2,7 +2,7 @@ import './Home.css'
 
 const Home = () => {
     return (
-        <div className="landing-container">
+        <div className="landing-container bg-gray-500">
             <div className="title-content">
                 <h1 className="heading">FELE</h1>
                 <p className="sub-heading">Fabric Experimentation and Learning Environment</p>
