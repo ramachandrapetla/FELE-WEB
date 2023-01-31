@@ -10,6 +10,8 @@ import Home from './components/Home/Home'
 import Mentors from './components/Mentors/Mentors';
 import Meetings from './components/Meetings/Meetings';
 import Reports from './components/Reports/Reports';
+import Deliverables from './components/Deliverables/Deliverables';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -17,11 +19,13 @@ function App() {
       <FeleNavbar />
       <Routes>
         <Route path="/" element={<Home />}/>
-        <Route path="/team" element={<Team />}/>
         <Route path="/mentors" element={<Mentors />}/>
+        <Route path="/team" element={<Team />}/>
         <Route path="/meetings" element={<Meetings />}/>
+        <Route path="/deliverables" element={<Deliverables />} />
         <Route path="/reports" element={<Reports />}/>
       </Routes>
+      <Footer />
     </Router>
     
     // <Router>

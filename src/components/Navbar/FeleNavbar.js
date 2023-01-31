@@ -7,9 +7,10 @@ const NAVLINKS_CLASSNAME = "cursor-pointer p-2 text-center rounded-md transition
 export default function FeleNavbar() {
   return (
     <div className="flex justify-between items-center p-2 shadow-sm bg-white">
-      <NavLink to="/" className="cursor-pointer w-[30%] font-semibold ml-8">FELE</NavLink>
+      <NavLink to="/" className="cursor-pointer w-[20%] font-semibold text-2xl ml-8">FELE</NavLink>
 
-      <div className="flex justify-between items-center w-[70%] font-semibold">
+      <div className="flex justify-between items-center w-[80%] font-semibold">
+        <NavLink className={({ isActive }) => isActive ? NAVLINKS_ACTIVE_CLASSNAME : NAVLINKS_CLASSNAME} to="/">Home</NavLink>
         <NavLink className={({ isActive }) => isActive ? NAVLINKS_ACTIVE_CLASSNAME : NAVLINKS_CLASSNAME} to="/mentors">Mentors</NavLink>
         <NavLink className={({ isActive }) => isActive ? NAVLINKS_ACTIVE_CLASSNAME : NAVLINKS_CLASSNAME} to="/team">Team</NavLink>
         <NavLink className={({ isActive }) => isActive ? NAVLINKS_ACTIVE_CLASSNAME : NAVLINKS_CLASSNAME} to="/meetings">Meetings</NavLink>
