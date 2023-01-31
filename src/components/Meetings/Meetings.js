@@ -3,8 +3,8 @@ const MOMS = [
   { date: '01/31/2023', time: MOM_TIME, pdf: null, disabled: false },
   { date: '02/07/2023', time: MOM_TIME, pdf: null, disabled: true }
 ];
-const DISABLED_CLASSNAME = "w-full rounded-md p-3 text-gray-400 cursor-pointer mb-4 flex justify-center items-center select-none";
-const ACTIVE_CLASSNAME = "w-full rounded-md p-3 cursor-pointer transition duration-200 mb-4 hover:bg-green-50 hover:text-green-900 flex justify-center items-center select-none";
+const DISABLED_CLASSNAME = "w-full rounded-md p-3 text-gray-400 cursor-pointer flex justify-center items-center select-none";
+const ACTIVE_CLASSNAME = "w-full rounded-md p-3 cursor-pointer transition duration-200 hover:bg-green-50 hover:text-green-900 flex justify-center items-center select-none";
 
 export default function Meetings() {
   const renderMOM = (mom, index) => {
